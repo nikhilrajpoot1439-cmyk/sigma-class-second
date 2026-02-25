@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    background-color: bisque;
+    /* transform: rotate(60deg); */
+    /* transform: skewX(10deg); */
+    /* transform: translate(30%); */
+    /* transform: translate(39%) skew(30deg) translateY(20%); */
+    transform-origin: -0% -0%;
+    transform: rotate(55deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100vw;
+    height: 80vh;
+    border: 3px solid purple;
+}
