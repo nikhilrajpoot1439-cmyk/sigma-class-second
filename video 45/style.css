@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: red;
+    width: 50vw;
+    height: 50vh;
+    /* border: 3px solid black ; */
+
+}
+.box{
+    background-color: aqua;
+    height: 8vh;
+    width: 13vw;
+    /* border: 3px solid black; */
+    transition-property:background-color , transform;
+    transition-duration:3s ;
+    transition-timing-function:ease-in-out ;
+    transition-delay:1s ;
+    
+}
+.translate{
+    transform: translateX(10vw) translateY(10vw) scale(2);
+    background-color: blue;
+}
