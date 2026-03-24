@@ -1,0 +1,16 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+img{
+  filter: blur(20px);  
+
+}
+img1{
+filter: brightness(200%);
+}
+.img2{
+
+}
